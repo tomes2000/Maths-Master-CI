@@ -17,3 +17,8 @@ Visit the deployed site:
 * I want the site to be easy to naviagate.
 
 
+#### Returning Visitor Goals
+
+* I want to be able to challenge myself by being able to adjust the difficulty level to improve my knowledge.
+* I want to be able to upload my highscore and track my progress.
+
