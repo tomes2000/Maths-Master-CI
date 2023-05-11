@@ -40,8 +40,18 @@ All pages on the website are responsive and include:
 
 ### The Home Page
 
-The home page of Maths Master displays the title at the top, with a container just below which features the content. This content allows the user to interact with the quiz and also welcomes them upon their visit. There are three buttons featured which include: "Play", "How To Play" and "High Scores".
+The home page of Maths Master displays the title at the top, with a container just below which features the content.  This content allows the user to interact with the quiz and also welcomes them upon their visit. There are three buttons featured which include: "Play", "How To Play" and "High Scores".
 
 The "Play" button will take the user to the game page, where they can select the difficulty of the quiz and also a high scores button, which allows to track their progress.
 
 A modal feature has been implemented when the "How To Play" button is pressed, which puts the content outside of the modal out of focus, helping the user concentrate on the content enclosed within the modal.
+
+### The Game Page
+
+The game page of Maths Masters displays the title at the top, which allows the user to navigate back to the home page. Within the game page, the user has the option of choosing their respective difficulty.
+
+Once the difficulty has been chosen, the quiz begins and the user is introduced to the quiz section which contains questions with 4 possible answers to choose from. 
+
+The user then has one chance to correctly answer the question, once they click an answer, they are unable to re-select a different answer. If the user is correct then the quiz border section along with the button will display a green colour along with adding 5 to the score total. If the user is incorrect, then the quiz border section along with the button will display a red colour and 0 points are added to the score total.
+
+There are a total of 15 questions. Once all 15 questions are answered, the user is redirected to the final seciton, allowing them to write their details and submit their score onto the high score page. A total of 10 scores can only be displayed, therefore the top 10 scores are only shown. Disabling the submit button until a high score name is entered prevents the user from submitting an empty field.
