@@ -27,3 +27,15 @@ Visit the deployed site:
 ### Imagery
 
 The website is called Maths Master; the name is designed to reassure the user that they can become a skillful mathetmatician from participating in this quiz. As a result, I've used an image of *blank* (change this) to show user *blank*.
+
+### Features
+
+The website is comprised of a home page, game page, high score page, 500 error page and 404 error page.
+
+All pages on the website are responsive and include:
+
+* A favicon in the browser tab.
+
+* The website title that allows the user to navigate back to the home page if they so require.
+
+
