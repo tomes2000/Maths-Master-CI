@@ -22,3 +22,8 @@ Visit the deployed site:
 * I want to be able to challenge myself by being able to adjust the difficulty level to improve my knowledge.
 * I want to be able to upload my highscore and track my progress.
 
+## Design
+
+### Imagery
+
+The website is called Maths Master; the name is designed to reassure the user that they can become a skillful mathetmatician from participating in this quiz. As a result, I've used an image of *blank* (change this) to show user *blank*.
