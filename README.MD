@@ -38,4 +38,10 @@ All pages on the website are responsive and include:
 
 * The website title that allows the user to navigate back to the home page if they so require.
 
+### The Home Page
 
+The home page of Maths Master displays the title at the top, with a container just below which features the content. This content allows the user to interact with the quiz and also welcomes them upon their visit. There are three buttons featured which include: "Play", "How To Play" and "High Scores".
+
+The "Play" button will take the user to the game page, where they can select the difficulty of the quiz and also a high scores button, which allows to track their progress.
+
+A modal feature has been implemented when the "How To Play" button is pressed, which puts the content outside of the modal out of focus, helping the user concentrate on the content enclosed within the modal.
