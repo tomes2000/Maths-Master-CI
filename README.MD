@@ -40,7 +40,7 @@ All pages on the website are responsive and include:
 
 ### The Home Page
 
-The home page of Maths Master displays the title at the top, with a container just below which features the content.  This content allows the user to interact with the quiz and also welcomes them upon their visit. There are three buttons featured which include: "Play", "How To Play" and "High Scores".
+The home page of Science Star displays the title at the top, with a container just below which features the content.  This content allows the user to interact with the quiz and also welcomes them upon their visit. There are three buttons featured which include: "Play", "How To Play" and "High Scores".
 
 The "Play" button will take the user to the game page, where they can select the difficulty of the quiz and also a high scores button, which allows them to track their progress.
 
