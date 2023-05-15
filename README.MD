@@ -1,4 +1,4 @@
-# Maths Master
+# Science Star
 
 Visit the deployed site: 
 
@@ -8,7 +8,7 @@ Visit the deployed site:
 
 #### First Time Visitor Goals
 
-* I want to practice my maths skills to improve my capabilities for exams or personal knowledge. 
+* I want to improve my science skills to improve my capabilities for exams or personal knowledge. 
 
 * I want to be able to play at any time and on any device.
 
@@ -26,7 +26,7 @@ Visit the deployed site:
 
 ### Imagery
 
-The website is called Maths Master; the name is designed to reassure the user that they can become a skillful mathetmatician from participating in this quiz. As a result, I've used an image of *blank* (change this) to show user *blank*.
+The website is called Science Star; the name is designed to reassure the user that they can become a skillful scientist from participating in this quiz. As a result, I've used an image of *blank* (change this) to show user *blank*.
 
 ### Features
 
@@ -48,10 +48,10 @@ A modal feature has been implemented when the "How To Play" button is pressed. T
 
 ### The Game Page
 
-The game page of Maths Masters displays the title at the top, which allows the user to navigate back to the home page. Within the game page, the user has the option of choosing their respective difficulty.
+The game page of Science Star displays the title at the top, which allows the user to navigate back to the home page. Within the game page, the user has the option of choosing their respective difficulty.
 
 Once the difficulty has been chosen, the quiz begins and the user is introduced to the quiz section which contains questions with 4 possible answers to choose from. 
 
-The user then has one chance to correctly answer the question, once they click an answer, they are unable to re-select a different answer. If the user is correct then the quiz border section along with the button will display a green colour along with adding 5 to the score total. If the user is incorrect, then the quiz border section along with the button will display a red colour and 0 points are added to the score total.
+The user then has one chance to correctly answer the question, once they click an answer, they are unable to re-select a different answer. If the user is correct then the quiz border section along with the button will display a green colour along with adding 10 to the score total. If the user is incorrect, then the quiz border section along with the button will display a red colour and 0 points are added to the score total.
 
-There are a total of 15 questions. Once all 15 questions are answered, the user is redirected to the final seciton, allowing them to write their details and submit their score onto the high score page. A total of 10 scores can only be displayed, therefore the top 10 scores are only shown. Disabling the submit button until a high score name is entered prevents the user from submitting an empty field.
+There are a total of 15 questions. Once all 10 questions are answered, the user is redirected to the final seciton, allowing them to write their details and submit their score onto the high score page. A total of 10 scores can only be displayed, therefore the top 10 scores are only shown. Disabling the submit button until a high score name is entered prevents the user from submitting an empty field.
