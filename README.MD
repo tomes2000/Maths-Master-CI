@@ -8,13 +8,15 @@ Visit the deployed site:
 
 #### First Time Visitor Goals
 
-* I want to improve my science skills to improve my capabilities for exams or personal knowledge. 
+1. `"I want to know what the website does upon my first visit, so that I can decide whether I'm interested in utilising it"`
 
-* I want to be able to play at any time and on any device.
+2. `"I want to improve my science skills to improve my capabilities for exams or personal knowledge."`
 
-* I want the site to be responsive to my specific device.
+3. `"I want to be able to play at any time and on any device."`
 
-* I want the site to be easy to naviagate.
+4. `"I want the site to be responsive to my specific device, especially as a mobile user."`
+
+5. `"I want the site to be easy to naviagate."`
 
 
 #### Returning Visitor Goals
