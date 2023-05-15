@@ -58,3 +58,9 @@ Once the difficulty has been chosen, the quiz begins and the user is introduced 
 The user then has one chance to correctly answer the question, once they click an answer, they are unable to re-select a different answer. If the user is correct then the quiz border section along with the button will display a green colour along with adding 10 to the score total. If the user is incorrect, then the quiz border section along with the button will display a red colour and 0 points are added to the score total.
 
 There are a total of 10 questions. Once all 10 questions are answered, the user is redirected to the final seciton, allowing them to write their details and submit their score onto the high score page. A total of 10 scores can only be displayed, therefore the top 10 scores are only shown. Disabling the submit button until a high score name is entered prevents the user from submitting an empty field.
+
+### Colour Scheme
+
+#### Green
+
+A darkish shade of green (#36C6E71) has been used due to its symbolism of [life, nature and balance](https://www.sensationalcolor.com/meaning-of-green/). This colour works very well with my idea of science as it's related to life and nature. This same colour was also included into the correct answer Buttons and Borders.
