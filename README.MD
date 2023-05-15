@@ -64,3 +64,14 @@ There are a total of 10 questions. Once all 10 questions are answered, the user 
 #### Green
 
 A darkish shade of green (#36C6E71) has been used due to its symbolism of [life, nature and balance](https://www.sensationalcolor.com/meaning-of-green/). This colour works very well with my idea of science as it's related to life and nature. This same colour was also included into the correct answer Buttons and Borders.
+
+#### White
+
+#### Black
+
+#### Background Image
+
+After conducting user testing and feedback sessions, the realisation that a plain green (#36C6E71) background was not very popular and resulted in a monotonous and dull user experience. As a result, I've included a vibrant image in the background of the website.
+
+*Describe the image details here*
+
