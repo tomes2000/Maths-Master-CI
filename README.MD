@@ -75,3 +75,6 @@ After conducting user testing and feedback sessions, the realisation that a plai
 
 *Describe the image details here*
 
+### Modals
+
+Modals are utilised in the site via Bootstrap to provide an additional degree of user interactivity. Here, I've used a modal to that contains instructions on how to play the game for the user. A useful feature that I've implemented is blurring the background, which allows the user to focus solely on the content within the modal.
