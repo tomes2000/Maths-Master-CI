@@ -88,6 +88,10 @@ There are a total of 10 questions. Once all 10 questions are answered, the user 
 
 The 404 error page of Science Star displays the title at the top, with a container just below which features the content.  This content contains a message telling the user that "There seems to be an issue with the page you were looking for!". The user then has the choice of going back to the home page, games page or the high scores page.
 
+#### Modals
+
+Modals are utilised in the site via Bootstrap to provide an additional degree of user interactivity. Here, I've used a modal to that contains instructions on how to play the game for the user. A useful feature that I've implemented is blurring the background, which allows the user to focus solely on the content within the modal.
+
 #### 500 Error Page
 
 The 500 error page of Science Star displays the title at the top, with a container just below which features the content.  This content contains a message telling the user that "Quiz data retrival error!" and to try again later. The user then has the choice of going back to the home page or the high score page. The user should not be sent to the play page as 500 error pages are caused by API errors.
@@ -106,8 +110,5 @@ A darkish shade of green (#36C6E71) has been used due to its symbolism of [life,
 
 After conducting user testing and feedback sessions, the realisation that a plain green (#36C6E71) background was not very popular and resulted in a monotonous and dull user experience. As a result, I've included a vibrant image in the background of the website.
 
-*Describe the image details here*
+This image focuses on the galaxies and stars of the universe, which ties in very well with the title "Science Star". In addiiton to this, the colour scheme is mainly a rich black colour with dotted white, red and yellow stars. 
 
-#### Modals
-
-Modals are utilised in the site via Bootstrap to provide an additional degree of user interactivity. Here, I've used a modal to that contains instructions on how to play the game for the user. A useful feature that I've implemented is blurring the background, which allows the user to focus solely on the content within the modal.
