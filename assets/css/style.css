@@ -31,4 +31,18 @@ h2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+p {
+    text-align: left;
+    font-size: 0.75rem;
+    padding-bottom: 1.5rem;
+}
   
+a {
+    text-decoration: none;
+}
+  
+p.answer-count,
+p.score-area {
+    padding-bottom: 1rem;
+}
