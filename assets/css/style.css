@@ -197,3 +197,11 @@ input {
     opacity: 1;
     pointer-events: auto;
 }
+
+/* Adding a border with rounded corners and padding around the modal content */
+#modal-content {
+    width: 70%;
+    border: #3c6e71 7px solid;
+    color: black;
+    text-align: center;
+}
