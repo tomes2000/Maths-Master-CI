@@ -127,3 +127,9 @@ li {
     background-color: #d9d9d9;
     color: #353535;
 }
+
+.next-btn:hover {
+    background-color: #353535;
+    color: #d9d9d9;
+}
+  
