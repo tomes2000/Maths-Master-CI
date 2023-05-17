@@ -104,4 +104,6 @@ li {
     border-radius: 3rem;
     color: #353535;
     margin: 0.3rem;
+    box-shadow: -2px -2px 5px #353535 inset;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌟</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
