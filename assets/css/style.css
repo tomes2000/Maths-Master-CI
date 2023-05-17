@@ -176,4 +176,18 @@ input {
     border-radius: 2rem;
     text-align: center;
 }
-  
+
+/*- Modal -*/
+/* Modal container styling */
+#modal-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
