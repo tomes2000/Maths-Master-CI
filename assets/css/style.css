@@ -12,3 +12,14 @@ body {
     background-size: cover;
     font-family: Garamond, serif;
   }
+
+/* Text and titles */
+h1 {
+    font-family: 'Star Wars', sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 0.2rem;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+  }
