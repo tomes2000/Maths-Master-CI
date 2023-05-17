@@ -46,3 +46,14 @@ p.answer-count,
 p.score-area {
     padding-bottom: 1rem;
 }
+
+#highscoreslist {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+  
