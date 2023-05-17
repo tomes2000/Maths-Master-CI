@@ -205,3 +205,8 @@ input {
     color: black;
     text-align: center;
 }
+
+/* Add margin to top of close modal button */
+#close-modal {
+    margin-top: 3rem;
+}
