@@ -121,3 +121,9 @@ li {
 .btn[disabled]:hover {
     cursor: not-allowed;
 }
+
+/* Next question button, different styling for differentiaiton */
+.next-btn {
+    background-color: #d9d9d9;
+    color: #353535;
+}
