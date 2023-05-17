@@ -68,3 +68,13 @@ li {
     align-content: center;
   
 }
+
+/* Outer container */
+#outer-container {
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    color: #353535;
+    border-radius: 1.5rem;
+}
