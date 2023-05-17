@@ -4,3 +4,11 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+/* Adding a background image of a star galaxy as it goes with the name "Science Star", incase image doesn't load then #353535 is used as backup */
+body {
+    background-image: url("../images/science.jpg");
+    background-color: #353535;
+    background-size: cover;
+    font-family: Garamond, serif;
+  }
