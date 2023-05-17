@@ -88,6 +88,10 @@ There are a total of 10 questions. Once all 10 questions are answered, the user 
 
 The 404 error page of Science Star displays the title at the top, with a container just below which features the content.  This content contains a message telling the user that "There seems to be an issue with the page you were looking for!". The user then has the choice of going back to the home page, games page or the high scores page.
 
+#### 500 Error Page
+
+The 500 error page of Science Star displays the title at the top, with a container just below which features the content.  This content contains a message telling the user that "Quiz data retrival error!" and to try again later. The user then has the choice of going back to the home page or the high score page. The user should not be sent to the play page as 500 error pages are caused by API errors.
+
 #### Colour Scheme
 
 ##### Green
