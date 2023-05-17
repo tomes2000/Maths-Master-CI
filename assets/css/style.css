@@ -79,3 +79,9 @@ li {
     color: #353535;
     border-radius: 1.5rem;
 }
+
+/* Button groups */
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
