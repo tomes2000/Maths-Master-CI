@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
 
 /* Adding a background image of a star galaxy as it goes with the name "Science Star", incase image doesn't load then #353535 is used as backup */
 body {
@@ -298,4 +298,4 @@ input {
     p {
       padding-bottom: 1.75rem;
     }
-  }
+}
