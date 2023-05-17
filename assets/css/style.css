@@ -285,3 +285,17 @@ input {
     }
   
 }
+
+
+/* Laptops */
+@media only screen and (min-width : 769px) {
+
+    h1 {
+      font-size: 8rem;
+      padding-top: 1.5rem;
+    }
+  
+    p {
+      padding-bottom: 1.75rem;
+    }
+  }
