@@ -157,3 +157,11 @@ li {
 .incorrectbtn {
     background-color: red;
 }
+
+/*- High Score -*/
+
+/* Alter form display type and input configuration */
+form {
+    display: flex;
+    flex-direction: column;
+}
