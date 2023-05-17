@@ -1,0 +1,6 @@
+/* Removes all margins & padding on everything so they can be fully customised */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
