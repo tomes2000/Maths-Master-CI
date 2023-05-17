@@ -70,6 +70,10 @@ The "Play" button will take the user to the game page, where they can select the
 
 A modal feature has been implemented when the "How To Play" button is pressed. This puts the content outside of the modal out of focus, helping the user concentrate on the content enclosed within the modal.
 
+##### How to Play Modal
+
+Within the home page, there is a "how to play" modal, which gives the user instructions on how to use the mechanics within the quiz. The rest of the background outside of the modal is blurred to allow the user to focus on the content within the modal.
+
 #### The Game Page
 
 The game page of Science Star displays the title at the top, which allows the user to navigate back to the home page. Within the game page, the user has the option of choosing their respective difficulty.
@@ -79,6 +83,10 @@ Once the difficulty has been chosen, the quiz begins and the user is introduced 
 The user then has one chance to correctly answer the question, once they click an answer, they are unable to re-select a different answer. If the user is correct then the quiz border section along with the button will display a green colour along with adding 10 to the score total. If the user is incorrect, then the quiz border section along with the button will display a red colour and 0 points are added to the score total.
 
 There are a total of 10 questions. Once all 10 questions are answered, the user is redirected to the final seciton, allowing them to write their details and submit their score onto the high score page. A total of 10 scores can only be displayed, therefore the top 10 scores are only shown. Disabling the submit button until a high score name is entered prevents the user from submitting an empty field.
+
+#### 404 Error Page
+
+The 404 error page of Science Star displays the title at the top, with a container just below which features the content.  This content contains a message telling the user that "There seems to be an issue with the page you were looking for!". The user then has the choice of going back to the home page, games page or the high scores page.
 
 #### Colour Scheme
 
