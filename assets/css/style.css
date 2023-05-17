@@ -148,3 +148,12 @@ li {
 .correctbtn {
     background-color: green;
 }
+
+/* Styling for incorrect choice */
+.incorrect {
+    border: red 0.75rem solid;
+}
+  
+.incorrectbtn {
+    background-color: red;
+}
