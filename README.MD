@@ -104,7 +104,17 @@ A darkish shade of green (#36C6E71) has been used due to its symbolism of [life,
 
 ##### White
 
+A simple white (#FFFFFF) was chosen for the title, modal and outer container background colour due to its pure and easy visualisaiton.
+
 ##### Black
+
+In order to comply with WCAG 2.0, a rich black colour (#353535) was chosen for primary text throughout the website. This resulted in a 12:26  ratio for black on white.
+
+##### Gray
+
+In order to comply with WCAG 2.0, a rich gray colour (#D9D9D9) was chosen for buttons throughout the website. This resulted in a 8.68  ratio for black on gray.
+
+In addition to this, gray pairs really well with black and white and actually adds depth and visual interest to the buttons.
 
 #### Background Image
 
