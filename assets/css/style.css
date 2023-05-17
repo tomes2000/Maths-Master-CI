@@ -57,3 +57,14 @@ li {
     padding-bottom: 0.5rem;
 }
   
+/*- Containers -*/
+/* Flex container*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+  
+}
