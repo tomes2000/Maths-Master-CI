@@ -117,3 +117,7 @@ li {
     color: #353535;
     box-shadow: -5px -7px 10px #3c6e71 inset;
 }
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+}
