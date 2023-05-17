@@ -191,3 +191,9 @@ input {
     pointer-events: none;
     transition: opacity 0.5s ease;
 }
+
+/* Changed the modal opacity to be visable */
+#modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
