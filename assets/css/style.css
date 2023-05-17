@@ -11,7 +11,7 @@ body {
     background-color: #353535;
     background-size: cover;
     font-family: Garamond, serif;
-  }
+}
 
 /* Text and titles */
 h1 {
@@ -22,4 +22,13 @@ h1 {
     font-style: italic;
     color: #ffffff;
     text-align: center;
-  }
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 5000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+  
