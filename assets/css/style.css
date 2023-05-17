@@ -85,3 +85,10 @@ li {
     display: flex;
     justify-content: center;
 }
+
+/* Score counter */
+#counter-area {
+    display: flex;
+    justify-content: space-between;
+}
+  
