@@ -1,3 +1,6 @@
+/* Fonts import */
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
 /* Removes all margins & padding on everything so they can be fully customised */
 * {
     padding: 0;
