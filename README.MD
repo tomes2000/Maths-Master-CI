@@ -21,11 +21,32 @@ Visit the deployed site:
 
 #### Returning Visitor Goals
 
-* I want to be able to challenge myself by being able to adjust the difficulty level to improve my knowledge.
+* `"I want to be able to challenge myself by being able to adjust the difficulty level to improve my knowledge."`
 
-* I want to be able to upload my highscore and track my progress.
+* `"I want to be able to upload my highscore and track my progress."`
 
-## Design
+### Porject Strategy Summary
+
+### Ideal User
+
+Any individual with the desire to increase their scientific knowledge.
+
+### Project Goal
+
+The concept behind Science Star is to provide a fun and interactive website for users to test their knowledge, learn new concepts and have fun whilst doing so. The high score function allows competitveness to propser, which entices the user to have a desire to beat their high score.
+
+#### User Requirements
+1. To be able to nagivate the site easily and efficiently.
+2. To be able to see whether an answer was correct and if not, see which other option was correct.
+3. To be able to record high scores.
+
+#### Project Objectives
+1. Allow users a simple way to learn and practice science in an interactive and dynamic way.
+2. Allow for an incentive for returning visitors to use this site consistently.
+3. Allow for the user to be engaged so that they pick this site over other sites.
+4. Allow the user to navigate and control the site easily.
+
+### Design
 
 ### Imagery
 
