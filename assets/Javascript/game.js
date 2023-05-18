@@ -99,3 +99,10 @@ for (let button of answerButtons) {
 }
 getQuestion(data);
 }
+
+// Answer verification function
+function checkAnswer(event) {
+  // Disable answer buttons when an answer is selected and retain its id
+  $('.answer-text').prop('disabled', true);
+  answerSelected = event.target.getAttribute("id");
+}
