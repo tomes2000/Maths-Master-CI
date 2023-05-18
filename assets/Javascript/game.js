@@ -158,5 +158,10 @@ function getQuestion(data) {
     }
     // Increase question number
     questionNumberReference++;
-  } 
+  } else {
+    // Takes user to the end screen where the final score is displayed
+    document.getElementById("quiz-area").classList.add("hide");
+    document.getElementById("end-area").classList.remove("hide");
+    finalScore.innerText = `${score}`;
+  }
 }
