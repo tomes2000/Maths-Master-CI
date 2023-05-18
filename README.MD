@@ -50,6 +50,13 @@ The concept behind Science Star is to provide a fun and interactive website for 
 
 ### Design
 
+#### Typography
+
+Logo font: Star Wars font was chosen for the logo. This is due to its relation to space, stars and science, which ties in really well the concept of Science Star.
+
+Body font: Courier New font was chosen for the body font due to its quirky visuals that are designed to excite the user. 
+
+
 #### Imagery
 
 The website is called Science Star; the name is designed to reassure the user that they can become a skillful scientist from participating in this quiz. As a result, I've used an image of *blank* (change this) to show user *blank*.
