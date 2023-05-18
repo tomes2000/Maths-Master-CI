@@ -184,3 +184,8 @@ function saveHighScore(event) {
 
 // High score local storage function taken from --> "https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9"
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+
+// Prevents user inputting a variable when the field is empty
+yourName.addEventListener("keyup", () => {
+  submitScoreBtn.disabled = !yourName.value;
+});
