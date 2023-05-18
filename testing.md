@@ -16,7 +16,15 @@ Outcome: **Pass**
 
 ### "I want the site to be easy to naviagate."
 
-Achievement: The user is present with a simple user interface which is simple to navigate and there are instructions explaining to them that they can return back to this page by clicking on the top title.
+Achievement: The user is presented with a simple UI which is simple to navigate and there are instructions explaining to them that they can return back to this page by clicking on the top title. In addition to this, the hover function is extremely useful in helping the user ensure that they are aware of what they are selecting.
+
+Outcome: **Pass**
+
+### "I want the site to be responsive to my specific device, especially as a mobile user."
+
+As the website utilises Bootstrap for its foundation, most of the structure natively adapts to a user's viewport, allowing native compatibility on any screen size. 
+
+Outcome: **Pass**
 
 ## Code Validation
 
