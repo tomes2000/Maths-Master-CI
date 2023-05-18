@@ -27,3 +27,9 @@ const answer1 = document.getElementById("answer1");
 const answer2 = document.getElementById("answer2");
 const answer3 = document.getElementById("answer3");
 const answer4 = document.getElementById("answer4");
+
+
+// Feature to move onto next question
+let correctAnswer;
+const next = document.getElementById("next");
+let answerSelected;
