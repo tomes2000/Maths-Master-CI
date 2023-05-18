@@ -66,8 +66,11 @@ async function callApi() {
     const response = await fetch(apiAddress);
     if (response.status >= 200) {
       data = await response.json();
-
+      // Hide the difficult box
+      hideDifficulty();
+      // Start the game based on the difficult selected
+      getQuestion(data);
     } else
       // If response condition is not met, redirect here
       window.location.assign("500.html");
-    }
+}
