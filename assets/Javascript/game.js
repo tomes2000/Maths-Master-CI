@@ -39,3 +39,9 @@ const finalScore = document.getElementById("final-score");
 const yourName = document.getElementById("yourName");
 const submitScoreBtn = document.getElementById("submitscorebtn");
 const MaxHighScores = 10;
+
+// Function - hide difficulty
+function hideDifficulty() {
+    document.getElementById("difficulty").classList.add("hide");
+    document.getElementById("quiz-area").classList.remove("hide");
+  }
