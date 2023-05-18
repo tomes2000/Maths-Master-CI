@@ -171,14 +171,14 @@ This limit was chosen due to the interactive nature of the website but also beca
 ![Home Page](documents/wireframes/tablet/homepage.png)
 ![Difficulty Page](documents/wireframes/tablet/difficulty.png)
 ![Game Page](documents/wireframes/tablet/questions.png)
-![High Scores Page](documents/wireframes/tablet/highscore.png)
+![High Scores Page](documents/wireframes/tablet/highscores.png)
 
 ### Mobile
 
 ![Home Page](documents/wireframes/mobile/homepage.png)
 ![Difficulty Page](documents/wireframes/mobile/difficulty.png)
-![Game Page](documents/wireframes/mobile/questions.png)
-![High Scores Page](documents/wireframes/mobile/highscore.png)
+![Game Page](documents/wireframes/mobile/quesitons.png)
+![High Scores Page](documents/wireframes/mobile/highscores.png)
 
 ## Testing
 
