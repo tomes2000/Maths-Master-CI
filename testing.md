@@ -95,3 +95,8 @@ All scores are positive.
 ![404.html](documents/404mboile.png)
 
 ![500.html](documents/500mobile.png)
+
+## Responsive Layout & Design
+
+Testing was completed with Chrome Development Tool's `Device Toolbar`.
+
