@@ -59,7 +59,7 @@ const characterSimplify = (str) => {
     return str.replace(/&#(\d+);/g, function (match, dec) {
       return String.fromCharCode(dec);
     });
-};
+}
   
 // API function taken from --> "https://www.youtube.com/watch?v=1Okmw8ggD1Q&ab_channel=dcode"
 async function callApi() {
@@ -73,4 +73,10 @@ async function callApi() {
     } else
       // If response condition is not met, redirect here
       window.location.assign("500.html");
+}
+
+// Increase score function
+function increaseScore() {
+  score += 10;
+  scoreCounter.innerText = `${score}`;
 }
