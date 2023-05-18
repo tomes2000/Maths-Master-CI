@@ -148,6 +148,14 @@ function getQuestion(data) {
     answer3.innerHTML = `${answers[2]}`;
     answer4.innerHTML = `${answers[3]}`;
 
-    
-  }
+    // Add data-correct attribute if answer is true by looping through and verifying
+    for (let button of answerButtons) {
+      if (button.innerHTML === characterSimplify(correctAnswer)) {
+        button.setAttribute("data-correct", "true");
+      }
+      // adds event listener to each button & on click runs check answer function
+      button.addEventListener("click", checkAnswer);
+    }
+
+  } 
 }
