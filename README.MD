@@ -112,6 +112,8 @@ A darkish shade of green (#36C6E71) has been used due to its symbolism of [life,
 
 A simple white (#FFFFFF) was chosen for the title, modal and outer container background colour due to its pure and easy visualisaiton.
 
+![white](documents/blackandwhite.png)
+
 ##### Black
 
 In order to comply with WCAG 2.0, a rich black colour (#353535) was chosen for primary text throughout the website. This resulted in a 12:26  ratio for black on white.
