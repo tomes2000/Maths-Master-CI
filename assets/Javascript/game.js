@@ -54,3 +54,10 @@ function arrayShuffle(array) {
     }
   }
   
+  // Due to the nature of the API database, certain characters have to be replaced to prevent a bug from occuring --> "https://pkg.go.dev/github.com/eswdd/bosun/opentsdb"
+const characterSimplify = (str) => {
+    return str.replace(/&#(\d+);/g, function (match, dec) {
+      return String.fromCharCode(dec);
+    });
+  };
+  
