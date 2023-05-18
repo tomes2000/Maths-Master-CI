@@ -19,3 +19,11 @@ let questionNumber = document.getElementById("answer-number");
 let score = 0;
 let acceptingAnswers = true;
 let scoreCounter = document.getElementById("score");
+
+// Quiz area
+const question = document.getElementById("question");
+const answerButtons = document.getElementsByClassName("answer-text");
+const answer1 = document.getElementById("answer1");
+const answer2 = document.getElementById("answer2");
+const answer3 = document.getElementById("answer3");
+const answer4 = document.getElementById("answer4");
