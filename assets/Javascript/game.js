@@ -134,5 +134,20 @@ function getQuestion(data) {
   //Allows the answer buttons to be clicked
   $('.answer-text').prop('disabled', false);
   let results = data.results[questionNumberReference];
-  
+  // Restricts quiz to 10 questions
+  if (questionNumberReference <= 9) {
+    // Implement quesiton from DB into site
+    question.innerHTML = results.question;
+    correctAnswer = results.correct_answer;
+    // Create an array that holds all the answer choices for the question
+    const answers = [...results.incorrect_answers, correctAnswer];
+    // Shuffle through the answers for the question
+    arrayShuffle(answers);
+    answer1.innerHTML = `${answers[0]}`;
+    answer2.innerHTML = `${answers[1]}`;
+    answer3.innerHTML = `${answers[2]}`;
+    answer4.innerHTML = `${answers[3]}`;
+
+    
+  }
 }
