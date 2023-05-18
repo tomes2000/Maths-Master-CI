@@ -2,7 +2,21 @@
 
 ## User Story Testing
 
+### "I want to know what the website does upon my first visit, so that I can decide whether I'm interested in utilising it."
 
+Achiement: When the user first visits the website they are presented with the logo "Science Star", which explains the science nature of the quiz. In addition to this, the site also has an over view explaining its purpose. Lastly, to eliminate any confusion at all, there is also a set of instrucitons for the user explaining how to interact with the quiz.
+
+Outcome: **Pass**
+
+### "I want to improve my science skills to improve my capabilities for exams or personal knowledge."
+
+Achievement: I have ensured that the user can receieve instant feedback of their results from the quiz based on a score counter and also red & green colours to indicate whether an answer was correct or not.
+
+Outcome: **Pass**
+
+### "I want the site to be easy to naviagate."
+
+Achievement: The user is present with a simple user interface which is simple to navigate and there are instructions explaining to them that they can return back to this page by clicking on the top title.
 
 ## Code Validation
 
