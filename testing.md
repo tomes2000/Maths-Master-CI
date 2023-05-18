@@ -154,3 +154,14 @@ No issues were reported
 | Next button - becomes visible | When an answer is clicked the next button should be displayed so the user can progress to the next question, or to the end section if all 10 questions have been answered| Clicked on an answer button | The next button displayed | Pass |
 | Next button hover effect | A button with a white background & black text should change to a button with a black background & white text when hovered over.| Hovered over the button | Style changed as expected | Pass |
 | Next button - clicked | When clicked all answer styles should be removed, the next button should become hidden again and a new question and answer loaded if there are questions left. If all questions have been answered the end game should appear | Clicked on the next button | All styles were removed and a new question and answers were displayed. After question 10 was answered I was taken to the end game. | Pass |
+
+`Difficulty selection`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Links back to home page | Clicked title | Back to Home Page | Pass |
+| All buttons - hover effect | All gray buttons with black text should change to a slight green gue when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
+| Easy Button | Calls the easy quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | ![dataconsole.log-easy] | Pass |
+| Medium Button | Calls the medium quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | ![dataconsole.log-medium] | Pass |
+| Hard Button | Calls the hard quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | ![dataconsole.log-hard] | Pass |
