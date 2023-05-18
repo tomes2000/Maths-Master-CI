@@ -191,3 +191,8 @@ yourName.addEventListener("keyup", () => {
 });
 
 submitScoreBtn.addEventListener("click", saveHighScore);
+
+// Event listener checks the difficulty answer function
+easy.addEventListener('click', callApi);
+medium.addEventListener('click', callApi);
+hard.addEventListener('click', callApi);
