@@ -118,7 +118,8 @@ For each device tested, I used the following browser:
 - Internet Explorer 11
 - Chrome/Firefox/Edge
 - Safari
-No issues have been reported.
+
+No issues were reported
 
 `index.html`
 
