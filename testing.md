@@ -16,4 +16,4 @@ Code Validation was completed via third party applications, in order to assess t
 3. [**JSHint**](https://jshint.com/) - JS Validation
 
   - The project's JavaScript was validated using the open source automated service, JSHint, at intervals throughout the development process.
-  - All three Javascript files passed, however game.js experienced one warning message due to Async functions which are only available in ES8, but I'm not too worried about this issue.
+  - All three Javascript files passed, however game.js experienced one warning message due to Async functions which are only available in ES8, but I'm not too worried about this issue. Any other warning messages are due to ES6 Compatibility; I'm aware of these and am satisfied these can be dismissed.
