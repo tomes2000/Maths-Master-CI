@@ -100,3 +100,24 @@ All scores are positive.
 
 Testing was completed with Chrome Development Tool's `Device Toolbar`.
 
+Testing was conducted on the following devices:
+  - Computer (22 inch screen)
+  - Moto G4
+  - Galaxy S5
+  - Pixel 2
+  - Pixel 2XL
+  - iPhone 5/SE
+  - iPhone 6/7/8 (and plus)
+  - iPhone X
+  - iPad
+  - iPad Pro
+  - Surface Duo
+  - Galaxy Fold
+
+For each device tested, I used the following browser:
+- Internet Explorer 11
+- Chrome/Firefox/Edge
+- Safari
+No issues have been reported.
+
+`Home Page`
