@@ -160,7 +160,7 @@ This limit was chosen due to the interactive nature of the website but also beca
 
 ## Testing
 
-Refer to testing.md for all testing concepts
+Refer to [testing.md](testing.md) for all testing concepts
 
 ## Deployment & Local Development
 
