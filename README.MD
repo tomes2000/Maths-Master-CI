@@ -1,6 +1,6 @@
 # Science Star
 
-Visit the deployed site: 
+Visit the deployed site: [Science Star](https://tomes2000.github.io/Science-Star-CI//)
 
 ## User Experience (UX)
 
