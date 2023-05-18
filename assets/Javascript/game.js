@@ -165,3 +165,13 @@ function getQuestion(data) {
     finalScore.innerText = `${score}`;
   }
 }
+
+// High score save function taken from --> "https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9"
+function saveHighScore(event) {
+  event.preventDefault();
+  const scoreLog = {
+    name: yourName.value,
+    score: score
+  };
+
+}
