@@ -127,6 +127,13 @@ Modals are utilised in the site via Bootstrap to provide an additional degree of
 
 The 500 error page of Science Star displays the title at the top, with a container just below which features the content.  This content contains a message telling the user that "Quiz data retrival error!" and to try again later. The user then has the choice of going back to the home page or the high score page. The user should not be sent to the play page as 500 error pages are caused by API errors.
 
+### Future Considerations
+
+If I were to complete this project again, this is what I would do differently:
+-   Show the difficulty level completed within the high score as right now, only a number is shown next to their name.
+-   Add an online database so that people from all around the world can compete with each other and see who can get the greatest high score
+-   Give the user the option of choosing what kind of quiz they wanted. For example, "Multiple Choice" quiz or "True or False" quiz.
+
 #### Colour Scheme
 
 White and black are very good colours to represent space and have been used extensively throughout my project. I have used red and green within css for the purpose of showing correct and incorrect answers.
