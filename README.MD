@@ -14,11 +14,9 @@ Visit the deployed site: [Science Star](https://tomes2000.github.io/Science-Star
 
 2. `"I want to improve my science skills to improve my capabilities for exams or personal knowledge."`
 
-3. `"I want to be able to play at any time and on any device."`
+3. `"I want the site to be responsive to my specific device, especially as a mobile user."`
 
-4. `"I want the site to be responsive to my specific device, especially as a mobile user."`
-
-5. `"I want the site to be easy to naviagate."`
+4. `"I want the site to be easy to naviagate."`
 
 
 #### Returning Visitor Goals
