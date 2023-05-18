@@ -162,6 +162,6 @@ No issues were reported
 | The Sites title | Links back to home page | Clicked title | Back to Home Page | Pass |
 | All buttons - hover effect | All gray buttons with black text should change to a slight green gue when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
 | 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
-| Easy Button | Calls the easy quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | ![dataconsole.log-easy] | Pass |
-| Medium Button | Calls the medium quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | ![dataconsole.log-medium] | Pass |
-| Hard Button | Calls the hard quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | ![dataconsole.log-hard] | Pass |
+| Easy Button | Calls the easy quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | Check that `difficulty: easy` is shown | Pass |
+| Medium Button | Calls the medium quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | !Check that `difficulty: medium` is shown | Pass |
+| Hard Button | Calls the hard quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | Check that `difficulty: hard` is shown | Pass |
