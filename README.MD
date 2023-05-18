@@ -128,3 +128,13 @@ After conducting user testing and feedback sessions, the realisation that a plai
 
 This image focuses on the galaxies and stars of the universe, which ties in very well with the title "Science Star". In addiiton to this, the colour scheme is mainly a rich black colour with dotted white, red and yellow stars. 
 
+#### Accessibility
+
+A website should be extremely accessible for people with disabilities. Ways that I have ensured that I have ensured accessibility are as follows:
+
+- Easy to navigate interface
+- Semantic HTML
+- Simple and plain colours
+- Hover ability on all buttons
+- Safe colour contrast
+- Sans serif font for dyslexic users
