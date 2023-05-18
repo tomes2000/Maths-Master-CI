@@ -130,4 +130,9 @@ function checkAnswer(event) {
 function getQuestion(data) {
   next.classList.add("hide");
   document.getElementById("outer-container").classList.remove("correct", "incorrect");
+
+  //Allows the answer buttons to be clicked
+  $('.answer-text').prop('disabled', false);
+  let results = data.results[questionNumberReference];
+  
 }
