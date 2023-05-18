@@ -25,6 +25,30 @@ Visit the deployed site: [Science Star](https://tomes2000.github.io/Science-Star
 
 * `"I want to be able to upload my highscore and track my progress."`
 
+## Wireframes
+
+### Desktop
+
+![Home Page](documents/wireframes/laptop/homepage.png)
+![Difficulty Page](documents/wireframes/laptop/difficulty.png)
+![Game Page](documents/wireframes/laptop/questions.png)
+![High Scores Page](documents/wireframes/laptop/highscore.png)
+
+### Tablet
+
+![Home Page](documents/wireframes/tablet/homepage.png)
+![Difficulty Page](documents/wireframes/tablet/difficulty.png)
+![Game Page](documents/wireframes/tablet/questions.png)
+![High Scores Page](documents/wireframes/tablet/highscores.png)
+
+### Mobile
+
+![Home Page](documents/wireframes/mobile/homepage.png)
+![Difficulty Page](documents/wireframes/mobile/difficulty.png)
+![Game Page](documents/wireframes/mobile/quesitons.png)
+![High Scores Page](documents/wireframes/mobile/highscore.png)
+
+
 ### Project Strategy Summary
 
 ### Ideal User
@@ -156,29 +180,6 @@ A website should be extremely accessible for people with disabilities. Ways that
 Using both Bootstrap and CSS's Flexbox, the project is designed to be fully compatible and interactive on all screen types and sizes, ensuring maximum functionality **up until 320px width screen sizes**. 
 
 This limit was chosen due to the interactive nature of the website but also because of the fact that [99%](https://screensiz.es/) of the mobile devices used today are above this width in pixels.
-
-## Wireframes
-
-### Desktop
-
-![Home Page](documents/wireframes/laptop/homepage.png)
-![Difficulty Page](documents/wireframes/laptop/difficulty.png)
-![Game Page](documents/wireframes/laptop/questions.png)
-![High Scores Page](documents/wireframes/laptop/highscore.png)
-
-### Tablet
-
-![Home Page](documents/wireframes/tablet/homepage.png)
-![Difficulty Page](documents/wireframes/tablet/difficulty.png)
-![Game Page](documents/wireframes/tablet/questions.png)
-![High Scores Page](documents/wireframes/tablet/highscores.png)
-
-### Mobile
-
-![Home Page](documents/wireframes/mobile/homepage.png)
-![Difficulty Page](documents/wireframes/mobile/difficulty.png)
-![Game Page](documents/wireframes/mobile/quesitons.png)
-![High Scores Page](documents/wireframes/mobile/highscore.png)
 
 ## Testing
 
