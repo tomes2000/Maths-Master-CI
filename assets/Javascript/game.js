@@ -1,0 +1,127 @@
+// Create starting data list and quesitonNumberReference
+var data = {};
+let questionNumberReference = 0;
+
+// Databse API
+const easyQuiz = "https://opentdb.com/api.php?amount=20&category=17&difficulty=easy&type=multiple";
+const mediumQuiz = "https://opentdb.com/api.php?amount=20&category=17&difficulty=medium&type=multiple";
+const hardQuiz = "https://opentdb.com/api.php?amount=20&category=17&difficulty=hard&type=multiple";
+
+// Difficulty selection
+const easy = document.getElementById("easy");
+const medium = document.getElementById("medium");
+const hard = document.getElementById("hard");
+let apiAddress;
+
+// Score and quesiton number display
+let questionCounter = 1;
+let questionNumber = document.getElementById("answer-number");
+let score = 0;
+let acceptingAnswers = true;
+let scoreCounter = document.getElementById("score");
+
+// Quiz area
+const question = document.getElementById("question");
+const answerButtons = document.getElementsByClassName("answer-text");
+const answer1 = document.getElementById("answer1");
+const answer2 = document.getElementById("answer2");
+const answer3 = document.getElementById("answer3");
+const answer4 = document.getElementById("answer4");
+
+
+// Feature to move onto next question
+let correctAnswer;
+const next = document.getElementById("next");
+let answerSelected;
+
+// Score submit area
+const finalScore = document.getElementById("final-score");
+const yourName = document.getElementById("yourName");
+const submitScoreBtn = document.getElementById("submitscorebtn");
+const MaxHighScores = 10;
+
+// Function - hide difficulty
+function hideDifficulty() {
+    document.getElementById("difficulty").classList.add("hide");
+    document.getElementById("quiz-area").classList.remove("hide");
+}
+
+// Shuffled array concept taken directly from --> "https://www.youtube.com/watch?v=tLxBwSL3lPQ&ab_channel=AdamKhoury"
+function arrayShuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      let s = Math.floor(Math.random() * (i + 1));
+      [array[i], array[s]] = [array[s], array[i]];
+    }
+}
+  
+// Due to the nature of the API database, certain characters have to be replaced to prevent a bug from occuring --> "https://pkg.go.dev/github.com/eswdd/bosun/opentsdb"
+const characterSimplify = (str) => {
+    return str.replace(/&#(\d+);/g, function (match, dec) {
+      return String.fromCharCode(dec);
+    });
+}
+  
+// API function taken from --> "https://www.youtube.com/watch?v=1Okmw8ggD1Q&ab_channel=dcode"
+async function callApi() {
+    const response = await fetch(apiAddress);
+    if (response.status >= 200) {
+      data = await response.json();
+      // Hide the difficult box
+      hideDifficulty();
+      // Start the game based on the difficult selected
+      getQuestion(data);
+    } else
+      // If response condition is not met, redirect here
+      window.location.assign("500.html");
+}
+
+// Increase score function
+function increaseScore() {
+  score += 10;
+  scoreCounter.innerText = `${score}`;
+}
+
+
+// Run next question
+function nextQuestion(event) {
+  // Increase quesiton counter
+  questionCounter++;
+  questionNumber.innerText = `${questionCounter}`;
+  document.getElementById(answerSelected).classList.remove("correctbtn", "incorrectbtn");
+  // Allows next quesiton to become interactable 
+  let displayCorrectAnswer = document.querySelector("[data-correct='true']");
+  displayCorrectAnswer.classList.remove("correctbtn");
+// Loop through to verify correct answer to add data attribute 
+for (let button of answerButtons) {
+  if (button.innerHTML === correctAnswer) {
+    button.removeAttribute("data-correct", "true");
+  }
+}
+getQuestion(data);
+}
+
+// Answer verification function
+function checkAnswer(event) {
+  // Disable answer buttons when an answer is selected and retain its id
+  $('.answer-text').prop('disabled', true);
+  answerSelected = event.target.getAttribute("id");
+
+  // Verify answer from the database
+  if (event.target.dataset.correct) {
+    // CSS styling
+    document.getElementById("outer-container").classList.add("correct");
+    document.getElementById(answerSelected).classList.add("correctbtn");
+    // Run function to increase score
+    increaseScore();
+
+  } else {
+    // CSS styling
+    document.getElementById(answerSelected).classList.add("incorrectbtn");
+    document.getElementById("outer-container").classList.add("incorrect");
+    let displayCorrectAnswer = document.querySelector("[data-correct='true']");
+    displayCorrectAnswer.classList.add("correctbtn");
+  }
+  // Displays the next question button for user to interact with
+  next.classList.remove("hide");
+  next.addEventListener("click", nextQuestion);
+}
