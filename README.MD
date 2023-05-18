@@ -102,6 +102,8 @@ The 500 error page of Science Star displays the title at the top, with a contain
 
 White and black are very good colours to represent space and have been used extensively throughout my project. I have used red and green within css for the purpose of showing correct and incorrect answers.
 
+![Colour Scheme](documents/colourscheme1.png)
+
 ##### Green
 
 A darkish shade of green (#36C6E71) has been used due to its symbolism of [life, nature and balance](https://www.sensationalcolor.com/meaning-of-green/). This colour works very well with my idea of science as it's related to life and nature. This same colour was also included into the correct answer Buttons and Borders.
