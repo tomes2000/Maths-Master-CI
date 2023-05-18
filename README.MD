@@ -27,7 +27,7 @@ Visit the deployed site: [Science Star](https://tomes2000.github.io/Science-Star
 
 * `"I want to be able to upload my highscore and track my progress."`
 
-### Porject Strategy Summary
+### Project Strategy Summary
 
 ### Ideal User
 
