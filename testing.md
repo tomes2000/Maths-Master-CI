@@ -44,10 +44,10 @@ All scores are positive.
 
 ![index.html](documents/indexmobile.png)
 
-![game.html](documents/gamemobile.png)
+![game.html](documents/gamedesktopmobile.png)
 
 ![highscores.html](documents/highscoresmobile.png)
 
-![404.html](documents/404mobile.png)
+![404.html](documents/404mboile.png)
 
 ![500.html](documents/500mobile.png)
