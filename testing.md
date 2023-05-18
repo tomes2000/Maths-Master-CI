@@ -2,6 +2,8 @@
 
 ## User Story Testing
 
+First time visitors 
+
 ### "I want to know what the website does upon my first visit, so that I can decide whether I'm interested in utilising it."
 
 Achiement: When the user first visits the website they are presented with the logo "Science Star", which explains the science nature of the quiz. In addition to this, the site also has an over view explaining its purpose. Lastly, to eliminate any confusion at all, there is also a set of instrucitons for the user explaining how to interact with the quiz.
@@ -25,6 +27,12 @@ Outcome: **Pass**
 As the website utilises Bootstrap for its foundation, most of the structure natively adapts to a user's viewport, allowing native compatibility on any screen size. 
 
 Outcome: **Pass**
+
+Returning visitors
+
+### "I want to be able to challenge myself by being able to adjust the difficulty level to improve my knowledge."
+
+Achievement: The difficulty button within the quiz allows the user to be mentally challenged, or maybe make the quiz easier if they think it is too difficult so that they can go along in in ther own pace.
 
 ## Code Validation
 
