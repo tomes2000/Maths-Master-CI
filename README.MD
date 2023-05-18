@@ -161,10 +161,10 @@ This limit was chosen due to the interactive nature of the website but also beca
 
 ### Desktop
 
-![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+![Home Page](documents/wireframes/laptop/homepage.png)
+![Difficulty Page](documents/wireframes/laptop/difficulty.png)
+![Game Page](documents/wireframes/laptop/questions.png)
+![High Scores Page](documents/wireframes/laptop/highscore.pngp)
 
 
 ## Testing
