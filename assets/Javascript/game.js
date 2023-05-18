@@ -12,3 +12,10 @@ const easy = document.getElementById("easy");
 const medium = document.getElementById("medium");
 const hard = document.getElementById("hard");
 let apiAddress;
+
+// Score and quesiton number display
+let questionCounter = 1;
+let questionNumber = document.getElementById("answer-number");
+let score = 0;
+let acceptingAnswers = true;
+let scoreCounter = document.getElementById("score");
