@@ -166,6 +166,12 @@ This limit was chosen due to the interactive nature of the website but also beca
 ![Game Page](documents/wireframes/laptop/questions.png)
 ![High Scores Page](documents/wireframes/laptop/highscore.png)
 
+### Tablet
+
+![Home Page](documents/wireframes/tablet/homepage.png)
+![Difficulty Page](documents/wireframes/tablet/difficulty.png)
+![Game Page](documents/wireframes/tablet/questions.png)
+![High Scores Page](documents/wireframes/tablet/highscore.png)
 
 ## Testing
 
