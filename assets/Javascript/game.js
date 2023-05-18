@@ -80,3 +80,15 @@ function increaseScore() {
   score += 10;
   scoreCounter.innerText = `${score}`;
 }
+
+
+// Run next question
+function nextQuestion(event) {
+  // Increase quesiton counter
+  questionCounter++;
+  questionNumber.innerText = `${questionCounter}`;
+  document.getElementById(answerSelected).classList.remove("correctbtn", "incorrectbtn");
+  // Allows next quesiton to become interactable 
+  let displayCorrectAnswer = document.querySelector("[data-correct='true']");
+  displayCorrectAnswer.classList.remove("correctbtn");
+}
