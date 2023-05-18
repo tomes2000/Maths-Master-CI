@@ -168,7 +168,7 @@ Refer to [testing.md](testing.md) for all testing concepts
 - The project uses [Boostrap](https://getbootstrap.com/), a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
 - The project uses [jQuery v3.5.1](https://jquery.com/), a JavaScript library, for DOM Traversal, HTML Maniuplation, and Event Handling.
 - The project uses [Google Fonts](https://fonts.google.com/) for typography.
-- The project uses [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqndPI12y2NlcUilg4QbxrbG_SdIM5FziMaayvPc7orFH_GWHSFVbsc0aAnJwEALw_wcB) for wireframes.
+- The project uses [UIWizard](https://uizard.io/wireframing/?utm_source=google&utm_medium=cpc&utm_campaign=T1%20Prototyping%20[ENG]&utm_content=Wireframing&utm_term=balsamiq%20wireframe&utm_id=12815287085&gad=1&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqnfyRhatzElUXO_lcrifhaOeu0NNSN7D__YKwuC5hu6IQuG5S9rx7pkaAsVgEALw_wcB) for wireframes.
 - The project uses [Git](https://git-scm.com/) for version control.
 - The project uses [Github](https://github.com/) to save and store the webpages.
 - The project used [Pexels](https://www.pexels.com/) for the background image of stars and galaxies.
