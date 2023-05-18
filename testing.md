@@ -34,6 +34,14 @@ Returning visitors
 
 Achievement: The difficulty button within the quiz allows the user to be mentally challenged, or maybe make the quiz easier if they think it is too difficult so that they can go along in in ther own pace.
 
+Outcome: **Pass**
+
+### "I want to be able to upload my highscore and track my progress."
+
+Achievement: The user can write their details down at the ends of the quiz and it will be displayed within the high scores list. Only the top 10 can be displayed.
+
+Outcome: **Pass**
+
 ## Code Validation
 
 Code Validation was completed via third party applications, in order to assess the markdown syntax and logical application of the languages used.
