@@ -153,6 +153,12 @@ A website should be extremely accessible for people with disabilities. Ways that
 - Safe colour contrast
 - Sans serif font for dyslexic users
 
+### Responsive Layout and Design
+
+Using both Bootstrap and CSS's Flexbox, the project is designed to be fully compatible and interactive on all screen types and sizes, ensuring maximum functionality **up until 320px width screen sizes**. 
+
+This limit was chosen due to the interactive nature of the website but also because of the fact that [99%](https://screensiz.es/) of the mobile devices used today are above this width in pixels.
+
 ## Deployment & Local Development
 
 ### Deployment
