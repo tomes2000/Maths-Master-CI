@@ -202,3 +202,7 @@ To clone the repository:
 - Thank you to [James Q Quick](https://www.youtube.com/@JamesQQuick) for his YouTube videos and tutorials which were very useful and handy in producing this quiz.
 
 - Thank you to [Adam Khoury](https://www.youtube.com/watch?v=tLxBwSL3lPQ&ab_channel=AdamKhoury) for his video on `Fisher-Yates Shuffle Modern Algorithm JavaScript Programming Tutorial`.
+
+- Thank you to [dcode](https://www.youtube.com/watch?v=1Okmw8ggD1Q&ab_channel=dcode) for their video on `How to Easily Call APIs With Fetch and Async/Await in JavaScript`
+
+- Thank you to 
