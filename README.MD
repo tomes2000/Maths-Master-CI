@@ -178,7 +178,7 @@ This limit was chosen due to the interactive nature of the website but also beca
 ![Home Page](documents/wireframes/mobile/homepage.png)
 ![Difficulty Page](documents/wireframes/mobile/difficulty.png)
 ![Game Page](documents/wireframes/mobile/quesitons.png)
-![High Scores Page](documents/wireframes/mobile/highscores.png)
+![High Scores Page](documents/wireframes/mobile/highscore.png)
 
 ## Testing
 
