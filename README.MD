@@ -173,6 +173,13 @@ This limit was chosen due to the interactive nature of the website but also beca
 ![Game Page](documents/wireframes/tablet/questions.png)
 ![High Scores Page](documents/wireframes/tablet/highscore.png)
 
+### Mobile
+
+![Home Page](documents/wireframes/mobile/homepage.png)
+![Difficulty Page](documents/wireframes/mobile/difficulty.png)
+![Game Page](documents/wireframes/mobile/questions.png)
+![High Scores Page](documents/wireframes/mboile/highscore.png)
+
 ## Testing
 
 Refer to [testing.md](testing.md) for all testing concepts
