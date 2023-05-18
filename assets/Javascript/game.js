@@ -181,3 +181,6 @@ function saveHighScore(event) {
   localStorage.setItem("highScores", JSON.stringify(highScores));
   window.location.assign("highscores.html");
 }
+
+// High score local storage function taken from --> "https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9"
+const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
