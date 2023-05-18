@@ -182,7 +182,7 @@ function saveHighScore(event) {
   window.location.assign("highscores.html");
 }
 
-// High score local storage function taken from --> "https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9"
+// High score local storage function taken from --> "https://www.youtube.com/watch?v=jK5zzSA2JHI&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=11&ab_channel=JamesQQuick"
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 // Prevents user inputting a variable when the field is empty
