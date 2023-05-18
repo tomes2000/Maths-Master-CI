@@ -124,6 +124,8 @@ In order to comply with WCAG 2.0, a rich gray colour (#D9D9D9) was chosen for bu
 
 In addition to this, gray pairs really well with black and white and actually adds depth and visual interest to the buttons.
 
+![gray](documents/blackandgray.png)
+
 #### Background Image
 
 After conducting user testing and feedback sessions, the realisation that a plain green (#36C6E71) background was not very popular and resulted in a monotonous and dull user experience. As a result, I've included a vibrant image in the background of the website.
