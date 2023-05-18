@@ -121,7 +121,7 @@ For each device tested, I used the following browser:
 
 No issues were reported
 
-`Home Page`
+`index.html`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -133,7 +133,7 @@ No issues were reported
 | All buttons - hover effect | All gray buttons with black text should change to a slight green gue when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
 | 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
 
-`Main quiz content`
+`Main quiz - Content`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ No issues were reported
 | Next button hover effect | A button with a white background & black text should change to a button with a black background & white text when hovered over.| Hovered over the button | Style changed as expected | Pass |
 | Next button - clicked | When clicked all answer styles should be removed, the next button should become hidden again and a new question and answer loaded if there are questions left. If all questions have been answered the end game should appear | Clicked on the next button | All styles were removed and a new question and answers were displayed. After question 10 was answered I was taken to the end game. | Pass |
 
-`Difficulty selection`
+`Main quiz - Difficulty selection`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -165,3 +165,6 @@ No issues were reported
 | Easy Button | Calls the easy quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | Check that `difficulty: easy` is shown | Pass |
 | Medium Button | Calls the medium quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | !Check that `difficulty: medium` is shown | Pass |
 | Hard Button | Calls the hard quiz URL for the API | Do console.log(data) and check the data from the API matches the level called | Check that `difficulty: hard` is shown | Pass |
+
+`Main quiz - Ending`
+
