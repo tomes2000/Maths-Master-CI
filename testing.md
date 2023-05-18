@@ -1,5 +1,23 @@
 # Science Star - Testing Document
 
+## Table of Contents
+
+- [Science Star - Testing Document](#science-star---testing-document)
+  * [User Story Testing](#user-story-testing)
+    + ["I want to know what the website does upon my first visit, so that I can decide whether I'm interested in utilising it."](#-i-want-to-know-what-the-website-does-upon-my-first-visit--so-that-i-can-decide-whether-i-m-interested-in-utilising-it-)
+    + ["I want to improve my science skills to improve my capabilities for exams or personal knowledge."](#-i-want-to-improve-my-science-skills-to-improve-my-capabilities-for-exams-or-personal-knowledge-)
+    + ["I want the site to be easy to naviagate."](#-i-want-the-site-to-be-easy-to-naviagate-)
+    + ["I want the site to be responsive to my specific device, especially as a mobile user."](#-i-want-the-site-to-be-responsive-to-my-specific-device--especially-as-a-mobile-user-)
+    + ["I want to be able to challenge myself by being able to adjust the difficulty level to improve my knowledge."](#-i-want-to-be-able-to-challenge-myself-by-being-able-to-adjust-the-difficulty-level-to-improve-my-knowledge-)
+    + ["I want to be able to upload my highscore and track my progress."](#-i-want-to-be-able-to-upload-my-highscore-and-track-my-progress-)
+  * [Code Validation](#code-validation)
+    + [Lighthouse](#lighthouse)
+    + [Desktop Results](#desktop-results)
+    + [Mobile Results](#mobile-results)
+  * [Responsive Layout & Design](#responsive-layout---design)
+  * [Bugs Solved](#bugs-solved)
+
+
 ## User Story Testing
 
 First time visitors 
