@@ -156,6 +156,7 @@ function getQuestion(data) {
       // adds event listener to each button & on click runs check answer function
       button.addEventListener("click", checkAnswer);
     }
-
+    // Increase question number
+    questionNumberReference++;
   } 
 }
