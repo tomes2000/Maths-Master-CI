@@ -189,3 +189,5 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 yourName.addEventListener("keyup", () => {
   submitScoreBtn.disabled = !yourName.value;
 });
+
+submitScoreBtn.addEventListener("click", saveHighScore);
