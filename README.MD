@@ -200,3 +200,5 @@ To clone the repository:
 ## Credits
 
 - Thank you to [James Q Quick](https://www.youtube.com/@JamesQQuick) for his YouTube videos and tutorials which were very useful and handy in producing this quiz.
+
+- Thank you to [Adam Khoury](https://www.youtube.com/watch?v=tLxBwSL3lPQ&ab_channel=AdamKhoury) for his video on `Fisher-Yates Shuffle Modern Algorithm JavaScript Programming Tutorial`.
