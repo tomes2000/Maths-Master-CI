@@ -157,6 +157,15 @@ Using both Bootstrap and CSS's Flexbox, the project is designed to be fully comp
 
 This limit was chosen due to the interactive nature of the website but also because of the fact that [99%](https://screensiz.es/) of the mobile devices used today are above this width in pixels.
 
+## Wireframes
+
+### Desktop
+
+![Home Page](documentation/wireframes/homewireframe.webp)
+![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
+![Game Page](documentation/wireframes/gamewireframe.webp)
+![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+
 
 ## Testing
 
