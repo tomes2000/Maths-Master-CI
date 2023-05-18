@@ -45,3 +45,12 @@ function hideDifficulty() {
     document.getElementById("difficulty").classList.add("hide");
     document.getElementById("quiz-area").classList.remove("hide");
   }
+
+  // Shuffled array concept taken directly from --> "https://www.youtube.com/watch?v=tLxBwSL3lPQ&ab_channel=AdamKhoury"
+function arrayShuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      let s = Math.floor(Math.random() * (i + 1));
+      [array[i], array[s]] = [array[s], array[i]];
+    }
+  }
+  
