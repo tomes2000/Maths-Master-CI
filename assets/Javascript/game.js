@@ -44,20 +44,30 @@ const MaxHighScores = 10;
 function hideDifficulty() {
     document.getElementById("difficulty").classList.add("hide");
     document.getElementById("quiz-area").classList.remove("hide");
-  }
+}
 
-  // Shuffled array concept taken directly from --> "https://www.youtube.com/watch?v=tLxBwSL3lPQ&ab_channel=AdamKhoury"
+// Shuffled array concept taken directly from --> "https://www.youtube.com/watch?v=tLxBwSL3lPQ&ab_channel=AdamKhoury"
 function arrayShuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
       let s = Math.floor(Math.random() * (i + 1));
       [array[i], array[s]] = [array[s], array[i]];
     }
-  }
+}
   
-  // Due to the nature of the API database, certain characters have to be replaced to prevent a bug from occuring --> "https://pkg.go.dev/github.com/eswdd/bosun/opentsdb"
+// Due to the nature of the API database, certain characters have to be replaced to prevent a bug from occuring --> "https://pkg.go.dev/github.com/eswdd/bosun/opentsdb"
 const characterSimplify = (str) => {
     return str.replace(/&#(\d+);/g, function (match, dec) {
       return String.fromCharCode(dec);
     });
-  };
+};
   
+// API function taken from --> "https://www.youtube.com/watch?v=1Okmw8ggD1Q&ab_channel=dcode"
+async function callApi() {
+    const response = await fetch(apiAddress);
+    if (response.status >= 200) {
+      data = await response.json();
+
+    } else
+      // If response condition is not met, redirect here
+      window.location.assign("500.html");
+    }
