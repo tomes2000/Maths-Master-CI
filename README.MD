@@ -162,6 +162,26 @@ This limit was chosen due to the interactive nature of the website but also beca
 
 Refer to [testing.md](testing.md) for all testing concepts
 
+## Technologies Used
+
+- The project was written in HTML CSS, and JavaScript
+- The project uses [Boostrap](https://getbootstrap.com/), a 'Mobile First' HTML/CSS Framework for simple and intuitive responsive web design.
+- The project uses [jQuery v3.5.1](https://jquery.com/), a JavaScript library, for DOM Traversal, HTML Maniuplation, and Event Handling.
+- The project uses [Google Fonts](https://fonts.google.com/) for typography.
+- The project uses [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqndPI12y2NlcUilg4QbxrbG_SdIM5FziMaayvPc7orFH_GWHSFVbsc0aAnJwEALw_wcB) for wireframes.
+- The project uses [Git](https://git-scm.com/) for version control.
+- The project uses [Github](https://github.com/) to save and store the webpages.
+- The project used [Pexels](https://www.pexels.com/) for the background image of stars and galaxies.
+- The project used [Favicon.io](https://favicon.io/) to create favicons.
+- The project used [Coolors](https://coolors.co/) for the colour scheme.
+- The project uses [Am I Responsive](https://ui.dev/amiresponsive) to show the website on a range of different devices.
+- The project uses [Open Trivia Database](https://opentdb.com/), which is an API with a database of trivia questions.
+- The project's HTML was validated using [W3C HTML Markup Validator](https://validator.w3.org/).
+- The project's CSS was validated using [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
+- The project's JS was validated using [JSHint](https://jshint.com/).
+- The project uses Google Chrome's [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its rating.
+- The project uses [W3C Colour Contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) to check if it's appropraite for people with disabilities.
+
 ## Deployment & Local Development
 
 ### Deployment
