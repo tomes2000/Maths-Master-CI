@@ -174,4 +174,10 @@ function saveHighScore(event) {
     score: score
   };
 
+  // High score is pushed in, sorted by number with a maximum of 10 scores available
+  highScores.push(scoreLog);
+  highScores.sort((a, b) => b.score - a.score);
+  highScores.splice(MaxHighScores);
+  localStorage.setItem("highScores", JSON.stringify(highScores));
+  window.location.assign("highscores.html");
 }
