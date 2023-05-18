@@ -1,6 +1,6 @@
 # Science Star
 
-![Science Star Website](documents/amiresponsive.png)
+![Science Star Website](documents/am i responsive.png)
 
 Visit the deployed site: [Science Star](https://tomes2000.github.io/Science-Star-CI//)
 
