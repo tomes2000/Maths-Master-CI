@@ -189,3 +189,14 @@ No issues were reported
 | Score Displayed | If your score is in the top 10, your name and score will be displayed in the high scores area in descending order | Played 11+ games and logged a variety of scores. | Once 10 scores were displayed on the high scores board, only scores that were better than the ones logged would then be added to the board | Pass |
 | Play again? button | Takes the user to the beginning of the game page to select a difficulty level | Clicked the button | Taken to the beginning of the game page to select a difficulty level | Pass |
 | Home button | Clicking on this button will take you back to the home page | Clicked the home button | Directed back to the home page | Pass |
+
+`404.html`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Links back to home page | Clicked title | Back to Home Page | Pass |
+| All buttons - hover effect | All gray buttons with black text should change to a slight green gue when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
+| Home button | Clicking on this button will take you back to the home page | Clicked the home button | Directed back to the home page | Pass |
+| Play button | Takes the user to the beginning of the game page | Clicked the button | Taken to the beginning of the game page to choose a difficulty level | Pass|
+| View high Scores button | Takes the user to the high scores page | Clicked the button | Taken to the high scores page | Pass |
