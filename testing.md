@@ -168,3 +168,13 @@ No issues were reported
 
 `Main quiz - Ending`
 
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Links back to home page | Clicked title | Back to Home Page | Pass |
+| All buttons - hover effect | All gray buttons with black text should change to a slight green gue when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
+| Score Display | Score populates with the score achieved | Checking the scores and adding them as the quiz was utilised | The score displays correctly | Pass |
+| Submit Button - enabled/disabled | The submit button should be disabled and show the not allowed cursor by default. Once the user types their  name into the input field the button is enabled | I hovered over and clicked the submit button without filling in the  name field. I then added a  name, hovered over and clicked the submit button | Without a name filled in the cursor displays as not allowed and the button will not submit. Once I filled in a name the cursor became a 🌟 when hovered over the button and I was able to click and submit the score | Pass |
+| Submit button - on submit | Once clicked the submit button will redirect you to the high scores page | Clicked the button with the team name filled in | Redirected to the high scores page | Pass |
+| Play again? button | Clicking on this button will return you to the start of the game page where you can select a quiz difficulty level | Clicked on the play again? button | Directed to the beginning of the game to select a difficulty level | Pass |
+| Home button | Clicking on this button will take you back to the home page | Clicked the home button | Directed back to the home page | Pass |
