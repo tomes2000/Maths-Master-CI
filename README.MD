@@ -140,7 +140,7 @@ After conducting user testing and feedback sessions, the realisation that a plai
 
 This image focuses on the galaxies and stars of the universe, which ties in very well with the title "Science Star". In addiiton to this, the colour scheme is mainly a rich black colour with dotted white, red and yellow stars. 
 
-![background iamge](images/science.png)
+![background image](images/science.jpg)
 
 #### Accessibility
 
