@@ -205,4 +205,4 @@ To clone the repository:
 
 - Thank you to [dcode](https://www.youtube.com/watch?v=1Okmw8ggD1Q&ab_channel=dcode) for their video on `How to Easily Call APIs With Fetch and Async/Await in JavaScript`
 
-- Thank you to 
+Please note that I have credited the creators of these links within the comments section of my code!
