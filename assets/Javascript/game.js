@@ -33,3 +33,9 @@ const answer4 = document.getElementById("answer4");
 let correctAnswer;
 const next = document.getElementById("next");
 let answerSelected;
+
+// Score submit area
+const finalScore = document.getElementById("final-score");
+const yourName = document.getElementById("yourName");
+const submitScoreBtn = document.getElementById("submitscorebtn");
+const MaxHighScores = 10;
