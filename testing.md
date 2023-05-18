@@ -211,3 +211,10 @@ No issues were reported
 | 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
 | Home button | Clicking on this button will take you back to the home page | Clicked the home button | Directed back to the home page | Pass |
 | View high Scores button | Takes the user to the high scores page | Clicked the button | Taken to the high scores page | Pass |
+
+## Bugs Solved
+
+| Number | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | When an incorrect answer was selected, if the correct answer contained some kind of HTML entity characters i.e. /&#(\d+);/g, then the proper styling setting wouldn't take effect and would result in an error within the console command. This was really bad as it meant the user wouldn't be able to continue the quiz. | To solve the issue, I used [this article](https://stackoverflow.com/questions/784586/convert-special-characters-to-html-in-javascript). Essentially, what needed to happen was a function was required to take the HTML entity characters and transform them into correct characters. |
+| 2 | Incorrect display of HTML entity characters from the JSON, which results in unreadable characters that don't form a proper word. | To solve the issue, I used [this article](https://medium.com/nerd-for-tech/what-to-use-innertext-vs-innerhtml-a03ae77b9412). Essentially, I needed to use innerHTML instead of innerText. |
