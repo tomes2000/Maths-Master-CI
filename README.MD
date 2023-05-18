@@ -1,5 +1,7 @@
 # Science Star
 
+![Science Star Website](documents/amiresponsive.png)
+
 Visit the deployed site: [Science Star](https://tomes2000.github.io/Science-Star-CI//)
 
 ## User Experience (UX)
