@@ -36,3 +36,18 @@ All scores are positive
 
 ![500.html](documents/500desktop.png)
 
+### Mobile Results
+
+Lighthouse was used to investigate the performance, accessibility, best practices and SEO of the website.
+
+All scores are positive.
+
+![index.html](documents/indexmobile.png)
+
+![game.html](documents/gamemobile.png)
+
+![highscores.html](documents/highscoresmobile.png)
+
+![404.html](documents/404mobile.png)
+
+![500.html](documents/500mobile.png)
