@@ -120,4 +120,14 @@ For each device tested, I used the following browser:
 - Safari
 No issues have been reported.
 
-`Home Page`
+`index.html`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Links back to home page | Clicked title | Back to Home Page | Pass |
+| How to play button | Modal with instructions pops up | Click on button | Modal with instructions on how to play opens | Pass |
+| Modal close button | Closes the modal | Click on close button | Modal closed | Pass |
+| Play Button | Directs the user to the game page | Click on button | Game page opens with difficulty selection | Pass |
+| High Scores Button | Direct the user to the high scores page | Click on button | Directs to the high scores page | Pass |
+| All buttons - hover effect | All gray buttons with black text should change to a slight green gue when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
+| 🌟 Cursor | 🌟 displays when hovered over on button | Moved the mouse over each button to check the cursor changed after hovering on button | The cursor changed from the arrow to the 🌟 cursor | Pass |
