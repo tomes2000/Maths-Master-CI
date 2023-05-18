@@ -125,3 +125,9 @@ function checkAnswer(event) {
   next.classList.remove("hide");
   next.addEventListener("click", nextQuestion);
 }
+
+// Get question function
+function getQuestion(data) {
+  next.classList.add("hide");
+  document.getElementById("outer-container").classList.remove("correct", "incorrect");
+}
