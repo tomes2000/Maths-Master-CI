@@ -91,4 +91,11 @@ function nextQuestion(event) {
   // Allows next quesiton to become interactable 
   let displayCorrectAnswer = document.querySelector("[data-correct='true']");
   displayCorrectAnswer.classList.remove("correctbtn");
+// Loop through to verify correct answer to add data attribute 
+for (let button of answerButtons) {
+  if (button.innerHTML === correctAnswer) {
+    button.removeAttribute("data-correct", "true");
+  }
+}
+getQuestion(data);
 }
